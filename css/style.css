@@ -1,0 +1,147 @@
+ body{
+    background-color: #EFF8FF;
+ }
+
+ .navbar-links__a{
+    color: #16100D;
+ }
+ .header{
+   width: 100%;
+   min-height: 760px;
+    background-image: url(../images/header\ bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+ .header-title{
+    font-family: Syne;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #16100D;
+ }
+ .header-text{
+   font-family: Syne;
+font-size: 22px;
+font-weight: 400;
+line-height: 34px;
+text-align: left;
+color:  #16100D80;
+
+ }
+ .header-card{
+   max-width: 915px;
+   height: auto;
+   border-radius: 16px; background-color: #FFFFFF;
+ }
+ .header-h5{
+   font-family: Syne;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+color: #16100D;
+ }
+ .works-title{
+    margin-top: 100px;
+    font-family: Syne;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #16100D;
+ }
+ .Works-text{
+    font-family: Syne;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px; 
+ }
+   .Worsk-card{
+   max-width: 366px;
+   height: auto;
+   border-radius: 20px;
+ }
+ .Works-color{
+   max-width: 366px;
+   height: auto;
+   padding: 20px ;
+   border-radius: 16px;
+   opacity: 0px;
+   color: white;
+   box-shadow: 0px 8.15px 6.52px 0px #00000002;
+   box-shadow: 0px 50px 100px 0px #0000000A  ; 
+   background-color: #025595;
+ }
+ .Works-card:hover{
+   background-color: #025595;
+   color: white;
+   border-radius: 16px;
+ }
+ .Home-card{
+  max-width: 273px;
+  z-index: 2;
+  transform: translate(130px);
+  height: 215px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+ }
+ .Home-item{
+   margin-top: 50px;
+ }
+ .Home-cards{
+   max-width: 273px;
+   z-index: 2;
+   height: 215px;
+   border-radius: 16px;
+   background-color: #FFFFFF;
+   transform: translate(-170px);
+ }
+ .img{
+   margin-top: 150px;
+ }
+ .img-card{
+   max-width: 366px;
+   height: 560px;
+   box-shadow: 0px 8.15px 6.52px 0px #00000002;
+   background-color: #EFF8FF;
+   padding: 20px;
+   box-shadow: 0px 50px 100px 0px #0000000A;
+ }
+ .rasm{
+   margin-top: 174px;
+ }
+.rasm-card{
+   width: 940px;
+   height: auto;
+   border-radius: 16px ;
+   background: #0255950D;
+}
+.footer{
+   margin-top: 100px;
+}
+.footer-link{
+   list-style: none;
+   text-decoration: none;
+   font-size: 40px;
+}
+@media (max-width: 1200px){
+   .header-title{
+      font-size: 45px;
+   }
+   .header-text{
+      font-size: 16px;
+   }
+}
+@media (max-width: 768px) {
+   .works-title{
+      font-size: 30px;
+   }
+   .Works-text{
+      font-size: 13px;
+   }
+ }
+ @media (max-width: 576px){
+   .works-title{
+      font-size: 25px;
+   }
+ }
